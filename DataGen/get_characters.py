@@ -25,4 +25,4 @@ if __name__ == "__main__":
     file = "../Data/awoiaf_loc.txt"
     characters = get_characters(file)
     for i in range(len(characters)):
-        print str(i+1)+'.', characters[i]
+        print st+'.', characters[i]
