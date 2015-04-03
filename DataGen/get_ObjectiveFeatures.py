@@ -36,7 +36,40 @@ class CategoryParser(HTMLParser):
 	chapter_number = 0
 	
 				
-	
+	def initialize_data(self):
+		self.features = []
+		self.categories = []
+		self.ignore = ["chapter", "Chapter", "Article", "Image", "image", "template", "Template", "TV", "Telltale", "icon", "page", "Icon", "help", "know"]
+		self.done = 0
+		self.catlinks = 0
+		self.catlinksspan = 0
+		self.catlinkdata = 0
+		self.infobox = 0
+		self.infoboxrow = 0
+		self.infoboxcategory = 0	
+		self.readCats = 0
+		self.readData = 0
+		self.readChapterName = 0
+		self.readChapterNumber = 0
+		self.readAllegiance = 0
+		self.readCulture = 0
+		self.readBorn = 0
+		self.readDied = 0
+		self.readGender = 0
+		self.catIndex = 0
+		self.categoriesToFilter = ["Allegiance","Culture","Born","Gender","Died"]
+		self.Allegiance = []
+		self.Culture =[]
+		self.Born = []
+		self.Gender = []
+		self.Died = []
+		self.chapterReferences = []
+		self.currentCategory = 0
+		self.chapters = 0
+		self.chapter_name = 0
+		self.chap = ""
+		self.chapter_number = 0
+		
 	def handle_starttag(self, tag, attrs):
         #print tag, attrs
 		if tag == "div":
@@ -119,15 +152,15 @@ class CategoryParser(HTMLParser):
 	def handle_data(self, data):
 		if self.readCats == 1:
 			if self.readAllegiance == 1:
-				self.Allegiance.append(data.strip(' \t\n\r'))
+				self.Allegiance.append(data.strip(' \t\r').replace("\n",""))
 			if self.readCulture == 1:
-				self.Culture.append(data.strip(' \t\n\r'))
+				self.Culture.append(data.strip(' \t\r').replace("\n",""))
 			if self.readBorn == 1:
-				self.Born.append(data.strip(' \t\n\r'))
+				self.Born.append(data.strip(' \t\n\r').replace("\n",""))
 			if self.readGender == 1:
-				self.Gender.append(data.strip(' \t\n\r'))
+				self.Gender.append(data.strip(' \t\r').replace("\n",""))
 			if self.readDied == 1:
-				self.Died.append(data.strip(' \t\n\r'))	
+				self.Died.append(data.strip(' \t\r').replace("\n",""))	
 						
 		if self.infoboxcategory == 1:
 			if self.readData == 1:
@@ -137,7 +170,7 @@ class CategoryParser(HTMLParser):
 					self.readCats = 1
 					if data in "Allegiance":
 						self.readAllegiance = 1
-						print "Allegiance detected"
+						
 					if data in "Culture":	
 						self.readCulture = 1
 					if data in "Born":
@@ -148,9 +181,9 @@ class CategoryParser(HTMLParser):
 						self.readDied = 1		
 								
 		if self.readChapterName == 1:
-			self.chap = data
+			self.chap = data.replace("\n","")
 		if self.readChapterNumber == 1:
-			self.chapterReferences.append((self.chap.strip(' \t\n\r'),data.strip(' \t\n\r')))	
+			self.chapterReferences.append((self.chap.strip(' \t\n\r').replace("\n",""),data.strip(' \t\n\r').replace("\n","")))	
 					
 	def get_categories(self):
 		return self.categories
@@ -171,7 +204,22 @@ class CategoryParser(HTMLParser):
 		return self.Died
 			
 	def extract_data(self,character_name):
+		import csv
+		reader = ''
+		dataFromCSV = []
+		with open('../Data/character_attributes.csv') as csvfile:
+			reader = csv.DictReader(csvfile)
+			for row in reader:
+				dataFromCSV.append(row)
+	
+		ExtractedData = {}
+		# Clean data	
+		for row in dataFromCSV:
+			ExtractedData[row["Character"].replace("\n","").replace(" ","").replace("_","").lower()] = (row["Gender"],row["Status"],row["POV"])	
+	
+		
 		parser = CategoryParser()
+		parser.initialize_data()
 		url = "http://awoiaf.westeros.org/index.php/"+character_name
 		req = urllib2.Request(url, headers={'User-Agent' : "Magic Browser"})
 		f = urllib2.urlopen(req)
@@ -182,7 +230,7 @@ class CategoryParser(HTMLParser):
 		chapterrefs = parser.get_chapterReferences()
 		allegiance = parser.get_allegiance()
 		culture = parser.get_culture()
-		gender = parser.get_gender()
+		
 		born = parser.get_born()
 		died = parser.get_died()
 		
@@ -202,10 +250,19 @@ class CategoryParser(HTMLParser):
 				if bday.isdigit() and len(bday) >=3:
 					DeathDate = bday
 					
+		Gender = ''
+		Status = ''
+		POV = ''
 		
+		dictkey = character_name.replace("\n","").replace(" ","").replace("_","").lower() 
+		
+		
+		##print "checking "+character_name+" dkey is : "+dictkey
 			
+		if dictkey in ExtractedData.keys():	
+			(Gender,Status,POV) = ExtractedData[dictkey]
 		
-		return (ChapterReferences,allegiance,culture,BirthDate,DeathDate)
+		return (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV)
 		
 if __name__ == "__main__":
 	parser = CategoryParser()
@@ -215,7 +272,7 @@ if __name__ == "__main__":
 	if(f):
 		 for line in f:
 			print str(j) +'.'+ line
-			(ChapterReferences,allegiance,culture,BirthDate,DeathDate) = parser.extract_data(line)
+			(ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV) = parser.extract_data(line)
 			 ## Chapter references	
 				
 			print "Chapter references :"
@@ -236,7 +293,17 @@ if __name__ == "__main__":
 			print "Born : "+ BirthDate
 		
 			# Died	
-			print "Died : "+ DeathDate	
+			print "Died : "+ DeathDate
+			
+			#Gender
+			print "Gender : "+Gender
+			
+			#Status
+			print "Status : "+Status
+			
+			#POV
+			print "POV : "+POV
+				
 			j+=1
 	f.close()	
 	

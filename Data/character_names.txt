@@ -732,7 +732,6 @@ Hamish_the_Harper
 Harbert
 Harbert_Paege
 Hareth_(Maester)
-Hareth_(Mole%27s_Town)
 Harghaz
 Harlan_Grandison
 Harlan_Hunter
@@ -849,7 +848,6 @@ Jammos_Frey
 Janei_Lannister
 Janna_Tyrell
 Janos_Slynt
-Jaqen_H%27ghar
 Jared_Frey
 Jaremy_Rykker
 Jarl
@@ -1381,14 +1379,11 @@ Palla
 Parmen_Crane
 Patchface
 Pate
-Pate_(King%27s_Landing)
 Pate_(Lancewood)
 Pate_(Mory)
 Pate_of_the_Blue_Fork
 Pate_(Old)
 Pate_(Pinchbottom)
-Pate_(Night%27s_Watch)
-Pate_(Shermer%27s_Grove)
 Pate_(Standfast)
 Patrek_Mallister
 Patrek_Vance
@@ -1632,10 +1627,8 @@ Ryman_Frey
 Rymolf
 Rymund_the_Rhymer
 Ryon_Allyrion
-S%27vrone
 Saathos
 Saera_Targaryen
-Sailor%27s_Wife
 Salladhor_Saan
 Sallei_Paege
 Sallor
