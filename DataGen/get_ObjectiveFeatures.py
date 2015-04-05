@@ -35,7 +35,7 @@ class CategoryParser(HTMLParser):
     chapter_name = 0
     chap = ""
     chapter_number = 0
-    
+    ExtractedData = {}
                 
     def initialize_data(self):
         self.features = []
@@ -203,8 +203,8 @@ class CategoryParser(HTMLParser):
         return self.Gender
     def get_died(self):
         return self.Died
-            
-    def extract_data(self,character_name):
+    
+    def extract_data_from_csv(self):
         import csv
         reader = ''
         dataFromCSV = []
@@ -213,11 +213,12 @@ class CategoryParser(HTMLParser):
             for row in reader:
                 dataFromCSV.append(row)
     
-        ExtractedData = {}
         # Clean data    
         for row in dataFromCSV:
-            ExtractedData[row["Character"].replace("\n","").replace(" ","").replace("_","").lower()] = (row["Gender"],row["Status"],row["POV"])    
+            self.ExtractedData[row["Character"].replace(row["Title"],"").replace(row["Old Surname"],"").replace("()","").replace(row["Alias"],"").replace(",","").replace("\n","").replace(" ","").replace("_","").lower()] = (row["Gender"],row["Status"],row["POV"])    
     
+    def extract_data(self,character_name):
+       
         
         parser = CategoryParser()
         parser.initialize_data()
@@ -238,8 +239,10 @@ class CategoryParser(HTMLParser):
         ChapterReferences = []
         for (chapname,no) in chapterrefs:
             if "Chapter" in no:
-                ChapterReferences.append((self.books[chapname],int(no.strip('Chapter '))))
-        
+                try:
+                    ChapterReferences.append((self.books[chapname],int(no.strip('Chapter '))))
+                except:
+                    pass        
         BirthDate = 'NULL'
         for bdate in born:
             for bday in bdate.split():
@@ -255,18 +258,19 @@ class CategoryParser(HTMLParser):
         Status = ''
         POV = ''
         
-        dictkey = character_name.replace("\n","").replace(" ","").replace("_","").lower() 
+        dictkey = character_name.replace("\n","").replace(" ","").replace("_","").replace(",","").lower() 
         
         
         ##print "checking "+character_name+" dkey is : "+dictkey
             
-        if dictkey in ExtractedData.keys():    
-            (Gender,Status,POV) = ExtractedData[dictkey]
-        
+        if dictkey in self.ExtractedData.keys():    
+            (Gender,Status,POV) = self.ExtractedData[dictkey]
+
         return (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV)
         
 if __name__ == "__main__":
     parser = CategoryParser()
+    parser.extract_data_from_csv()
     file = '../Data/character_names.txt'    
     chapters = [73, 70, 82, 46, 73]
     data = {'Type': 'References', 'Characters':[]}
@@ -307,6 +311,7 @@ if __name__ == "__main__":
             
             #POV
             print "POV : "+POV
+    
                 
             j+=1
     f.close()
