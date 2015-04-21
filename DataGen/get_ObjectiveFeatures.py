@@ -1,6 +1,7 @@
 from HTMLParser import HTMLParser
 import urllib2
 import json
+import sys
 
 class CategoryParser(HTMLParser):
     features = []
@@ -297,44 +298,55 @@ if __name__ == "__main__":
     j = 0
     if(f):
          for line in f:
-            print str(j) +'.'+ line
-            (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV,categories) = parser.extract_data(line)
-             ## Chapter references    
-                
-            data['Characters'].append({'Name':line.strip(' \n\t\r').replace('_', ' '), 'ref':[]})
-            for (a,b) in ChapterReferences:
-                data['Characters'][j]['ref'].append((a-1)*chapters[a-1]+b)
-            print data['Characters'][j]
-                      
-            print "Allegiance :"
-            # Allegiance    
-            for a in allegiance:
-                print  a
-                
-            print "Culture :"
-            # Culture    
-            for a in culture:
-                print a
-                
-            # Born    
-            print "Born : "+ BirthDate
-        
-            # Died    
-            print "Died : "+ DeathDate
-            
-            #Gender
-            print "Gender : "+Gender
-            
-            #Status
-            print "Status : "+Status
-            
-            #POV
-            print "POV : "+POV
-    
-            #categories
-            print "categories :"
-            for a in categories:
-               print a         
+            for k in range(1,100):
+                try: 
+                    print str(j) +'.'+ line
+                    (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV,categories) = parser.extract_data(line)
+                    ## Chapter references    
+                    csvline = ""    
+                    data['Characters'].append({'Name':line.strip(' \n\t\r').replace('_', ' '), 'ref':[]})
+                    for (a,b) in ChapterReferences:
+                        data['Characters'][j]['ref'].append((a-1)*chapters[a-1]+b)
+                    print data['Characters'][j]
+                    csvline+=(line+",")  
+                    print "Allegiance :"
+                    # Allegiance    
+                    for a in allegiance:
+                        print  a
+                        csvline+=(a+"#")
+                    csvline+= ","    
+                    print "Culture :"
+                    # Culture    
+                    for a in culture:
+                        print a
+                        csvline+=(a+"#")
+                    csvline+= ","    
+                    # Born    
+                    print "Born : "+ BirthDate
+                    csvline+= (BirthDate+",")
+                    # Died    
+                    print "Died : "+ DeathDate
+                    csvline+= (DeathDate+",")
+                    #Gender
+                    print "Gender : "+Gender
+                    csvline+= (Gender+",")
+                    #Status
+                    print "Status : "+Status
+                    csvline+= (Status+",")
+                    #POV
+                    print "POV : "+POV
+                    csvline+= (POV+",")
+                    #categories
+                    print "categories :"
+                    for a in categories:
+                        print a    
+                        csvline+= (a+"#")    
+                    csvline+= "\n"
+                    print csvline
+                    sys.stderr.write(csvline)
+                    break
+                except:
+                    pass
             j+=1
     f.close()
     parser.print_matched()
