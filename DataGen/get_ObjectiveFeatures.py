@@ -1,5 +1,7 @@
 from HTMLParser import HTMLParser
 import urllib2
+import json
+import sys
 
 class CategoryParser(HTMLParser):
     features = []
@@ -35,8 +37,10 @@ class CategoryParser(HTMLParser):
     chapter_name = 0
     chap = ""
     chapter_number = 0
-    
-                
+    ExtractedData = {}
+    matched =0
+    readCategories = 0
+    catlinkli = 0             
     def initialize_data(self):
         self.features = []
         self.categories = []
@@ -70,14 +74,17 @@ class CategoryParser(HTMLParser):
         self.chapter_name = 0
         self.chap = ""
         self.chapter_number = 0
-        
+        self.readCategories = 0 
+        self.catlinkli = 0       
     def handle_starttag(self, tag, attrs):
         #print tag, attrs
         if tag == "div":
             for (x,y) in attrs:
                 if y == "catlinks":
                     self.catlinks = 1
-                    
+        if tag == "li":
+            if self.catlinks == 1:
+                self.catlinkli = 1            
         if tag == "span":
             if self.catlinks == 1:
                 self.catlinksspan = 1
@@ -88,7 +95,9 @@ class CategoryParser(HTMLParser):
                 self.readChapterName = 1
             if self.chapters == 1:
                 if self.chapter_name == 0:
-                    self.readChapterNumber = 1        
+                    self.readChapterNumber = 1    
+            if self.catlinkli == 1:
+                self.readCategories  = 1            
         if tag == "table":
             for (x,y) in attrs:
                 if y == "infobox infobox-body":
@@ -122,12 +131,16 @@ class CategoryParser(HTMLParser):
                 self.catlinksspan = 0
             if self.chapters == 1:    
                 self.chapters = 0
-                
+        if tag == "li":
+            if self.catlinks == 1:
+                self.catlinkli = 0         
         if tag == "a":
             if self.catlinksspan == 1:
                 self.catlinkdata = 0
             self.readChapterName = 0
             self.readChapterNumber = 0
+            if self.catlinkli == 1:
+                self.readCategories  = 0
                     
         if tag == "table":
             if self.infobox == 1:
@@ -185,6 +198,8 @@ class CategoryParser(HTMLParser):
             self.chap = data.replace("\n","")
         if self.readChapterNumber == 1:
             self.chapterReferences.append((self.chap.strip(' \t\n\r').replace("\n",""),data.strip(' \t\n\r').replace("\n","")))    
+        if self.readCategories == 1:
+            self.categories.append(data.strip(' \t\n\r').replace("\n",""))    
                     
     def get_categories(self):
         return self.categories
@@ -203,8 +218,11 @@ class CategoryParser(HTMLParser):
         return self.Gender
     def get_died(self):
         return self.Died
-            
-    def extract_data(self,character_name):
+    
+    def print_matched(self):
+        print "Matched entries :" + str(self.matched)
+        
+    def extract_data_from_csv(self):
         import csv
         reader = ''
         dataFromCSV = []
@@ -213,14 +231,16 @@ class CategoryParser(HTMLParser):
             for row in reader:
                 dataFromCSV.append(row)
     
-        ExtractedData = {}
         # Clean data    
         for row in dataFromCSV:
-            ExtractedData[row["Character"].replace("\n","").replace(" ","").replace("_","").lower()] = (row["Gender"],row["Status"],row["POV"])    
+            self.ExtractedData[row["Character"].replace(row["Title"],"").replace(row["Old Surname"],"").replace("()","").replace(row["Alias"],"").replace(",","").replace("\n","").replace(" ","").replace("_","").lower()] = (row["Gender"],row["Status"],row["POV"])    
     
+    def extract_data(self,character_name):
+       
         
         parser = CategoryParser()
         parser.initialize_data()
+        
         url = "http://awoiaf.westeros.org/index.php/"+character_name
         req = urllib2.Request(url, headers={'User-Agent' : "Magic Browser"})
         f = urllib2.urlopen(req)
@@ -238,8 +258,10 @@ class CategoryParser(HTMLParser):
         ChapterReferences = []
         for (chapname,no) in chapterrefs:
             if "Chapter" in no:
-                ChapterReferences.append((self.books[chapname],int(no.strip('Chapter '))))
-        
+                try:
+                    ChapterReferences.append((self.books[chapname],int(no.strip('Chapter '))))
+                except:
+                    pass        
         BirthDate = 'NULL'
         for bdate in born:
             for bday in bdate.split():
@@ -255,18 +277,20 @@ class CategoryParser(HTMLParser):
         Status = ''
         POV = ''
         
-        dictkey = character_name.replace("\n","").replace(" ","").replace("_","").lower() 
+        dictkey = character_name.replace("\n","").replace(" ","").replace("_","").replace(",","").lower() 
         
         
         ##print "checking "+character_name+" dkey is : "+dictkey
             
-        if dictkey in ExtractedData.keys():    
-            (Gender,Status,POV) = ExtractedData[dictkey]
-        
-        return (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV)
+        if dictkey in self.ExtractedData.keys():    
+            (Gender,Status,POV) = self.ExtractedData[dictkey]
+            self.matched += 1
+        return (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV,categories)
         
 if __name__ == "__main__":
     parser = CategoryParser()
+    parser.extract_data_from_csv()
+    parser.print_matched()
     file = '../Data/character_names.txt'    
     chapters = [73, 70, 82, 46, 73]
     data = {'Type': 'References', 'Characters':[]}
@@ -274,43 +298,58 @@ if __name__ == "__main__":
     j = 0
     if(f):
          for line in f:
-            print str(j) +'.'+ line
-            (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV) = parser.extract_data(line)
-             ## Chapter references    
-                
-            data['Characters'].append({'Name':line.strip(' \n\t\r').replace('_', ' '), 'ref':[]})
-            for (a,b) in ChapterReferences:
-                data['Characters'][j]['ref'].append((a-1)*chapters[a-1]+b)
-            print data['Characters'][j]
-                      
-            print "Allegiance :"
-            # Allegiance    
-            for a in allegiance:
-                print  a
-                
-            print "Culture :"
-            # Culture    
-            for a in culture:
-                print a
-                
-            # Born    
-            print "Born : "+ BirthDate
-        
-            # Died    
-            print "Died : "+ DeathDate
-            
-            #Gender
-            print "Gender : "+Gender
-            
-            #Status
-            print "Status : "+Status
-            
-            #POV
-            print "POV : "+POV
-                
+            for k in range(1,100):
+                try: 
+                    print str(j) +'.'+ line
+                    (ChapterReferences,allegiance,culture,BirthDate,DeathDate,Gender,Status,POV,categories) = parser.extract_data(line)
+                    ## Chapter references    
+                    csvline = ""    
+                    data['Characters'].append({'Name':line.strip(' \n\t\r').replace('_', ' '), 'ref':[]})
+                    for (a,b) in ChapterReferences:
+                        data['Characters'][j]['ref'].append((a-1)*chapters[a-1]+b)
+                    print data['Characters'][j]
+                    csvline+=(line+",")  
+                    print "Allegiance :"
+                    # Allegiance    
+                    for a in allegiance:
+                        print  a
+                        csvline+=(a+"#")
+                    csvline+= ","    
+                    print "Culture :"
+                    # Culture    
+                    for a in culture:
+                        print a
+                        csvline+=(a+"#")
+                    csvline+= ","    
+                    # Born    
+                    print "Born : "+ BirthDate
+                    csvline+= (BirthDate+",")
+                    # Died    
+                    print "Died : "+ DeathDate
+                    csvline+= (DeathDate+",")
+                    #Gender
+                    print "Gender : "+Gender
+                    csvline+= (Gender+",")
+                    #Status
+                    print "Status : "+Status
+                    csvline+= (Status+",")
+                    #POV
+                    print "POV : "+POV
+                    csvline+= (POV+",")
+                    #categories
+                    print "categories :"
+                    for a in categories:
+                        print a    
+                        csvline+= (a+"#")    
+                    csvline+= "\n"
+                    print csvline
+                    sys.stderr.write(csvline)
+                    break
+                except:
+                    pass
             j+=1
     f.close()
-    
+    parser.print_matched()
     reffilename = "References.json"
     reffile = open(reffilename, 'w') 
     json.dump(data, reffile, indent=4, separators=(',', ':'), ensure_ascii=False, skipkeys=True)

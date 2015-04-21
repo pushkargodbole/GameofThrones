@@ -46,19 +46,15 @@ Alayaya
 Albar_Royce
 Albett
 Alebelly
-Alekyne_Florent>.
 Alequo_Adarys
 Alerie_Hightower
 Alesander_Frey
 Alesander_Staedmon
 Alesander_Torrent
 Alester_Florent
-Alester_Norcross>.
-Alester_Oakheart>.
 Alfyn
 Alia
 Alicent_Hightower
-All-for-Joffrey>.
 Alla_Tyrell
 Allaquo
 Allar_Deem
@@ -259,7 +255,6 @@ Bran_Stark
 Bran_the_Builder
 Brandon_Stark_(Bad)
 Brandon_Stark_(Burner)
-Brandon_Stark_(the_daughterless)>.
 Brandon_Stark_(Shipwright)
 Brandon_Tallhart
 Branston_Cuy
@@ -547,7 +542,6 @@ Endehar
 Endrew_Tarth
 Enger
 Eon_Hunter
-Erena_Glover>.
 Erik_Ironmaker
 Ermesande_Hayford
 Eroeh
@@ -799,7 +793,6 @@ Holly
 Hop-Robin
 Horas_Redwyne
 Horton_Redfort
-Hosman_Norcross>.
 Hosteen_Frey
 Hoster_Frey
 Hoster_Tully
@@ -1331,7 +1324,6 @@ Ollidor
 Ollo_Lophand
 Olymer_Tyrell
 Olyvar_Frey
-Olyvar_Oakheart>.
 Omer_Blackberry
 Omer_Florent
 Ondrew_Locke
@@ -1918,7 +1910,6 @@ Walder_Frey
 Walder_Goodbrook
 Walder_Haigh
 Walder_Rivers
-Walder_Vance>.
 Waldon_Wynch
 Walgrave
 Wallace_Waynwood
@@ -1941,7 +1932,6 @@ Wat_(Whitesmile)
 Wate
 Watt
 Watty
-Waymar_Royce>.
 Wayn_(guard)
 Weasel
 Weeper
