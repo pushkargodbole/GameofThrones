@@ -1,0 +1,139 @@
+<!DOCTYPE html><head>
+<meta charset="utf-8">
+<style>
+
+div{padding-bottom:1em;
+    padding-right:1em;
+    padding-left:1em;}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+box-sizing: border-box;
+display: inline;
+font-size: 10px;
+width: 100%;
+line-height: 1;
+color: rgba(0, 0, 0, 0.8);
+position: absolute;
+pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+content: "\25BC";
+margin: -1px 0 0 0;
+top: 100%;
+left: 0;
+text-align: center;
+}
+
+
+</style>
+<h3>Adding events to drop-down menus using D3</h3>
+<div align="right">Cluster by 
+<select id="select-list">
+  <option value="v1">Region</option> 
+  <option value="v2">House</option>
+  <option value="v3">Gender</option>
+  <option value="v3">Occupation</option>
+  <option value="v3">Status</option>
+</select>
+</div>
+</head>
+<body>
+<script src="d3/colorbrewer.js"></script>
+<script src="d3/d3.js"></script>
+<script src="d3/d3-tip.js"></script>
+
+<script>
+
+var width = 500,
+    height = 500;
+
+
+
+    
+//Boundary
+var minx = 50,
+    maxx = width-50,
+    miny = 50,
+    maxy = height-50;
+
+//D3 force directed layout
+//Try playing with the charge and link distance
+var force = d3.layout.force()
+    .charge(10)
+    .gravity(0.5)
+    .size([width, height]);
+
+//Add our canvas
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+//Select the miserables data ;)
+d3.json("Data/test3.json", function(error, graph) {
+  force
+      .nodes(graph.Characters)
+      .start();
+      
+
+tip = d3.tip().attr('class', 'd3-tip').html(function(d) { return "<strong>Name: </strong><span style='color:Aqua'>" + d.Name +   
+                                                                 "</span><br>" +
+                                                                 "<strong>House: </strong><span style='color:Aqua'>" + d.House + "</span><br>" +
+                                                                 "<strong>Occupation: </strong><span style='color:Aqua'>" + d.Occupation + "</span>"; }).offset([-10, 0]);
+
+//Add the nodes
+  var nodes = svg.selectAll(".node")
+      .data(graph.nodes)
+      .enter().append("g")
+      .attr("class", "nodes")
+
+
+function color(d) {
+   if (d.dead == 1) return "#ff0000"; // collapsed package
+   else return "#0000ff"; // expanded package
+}	  
+      
+  var node = nodes.append("circle")
+      .attr("class", "node")
+      .attr("r", 4)
+      .style("fill", color)
+      .style("stroke-width", 1.5)
+      .style("stroke", "#888888")
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      //.call(force.drag)
+      .call(tip);
+
+force.on("tick", function() {
+  
+  node.attr("cx", function(d) { return d.x = Math.max(minx, Math.min(d.x, maxx)); })
+        .attr("cy", function(d) { return d.y = Math.max(miny, Math.min(d.y, maxy)); });
+  
+      
+  });
+  
+});
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,6515 @@
+{
+    "nodes":[
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Abelar Hightower",
+            "Gender":"M",
+            "House":"House Hightower",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Addam",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Addam Marbrand",
+            "Gender":"M",
+            "House":"House Marbrand",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Aegon I Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Aegon II Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Valyrian",
+            "Name":"Aegon III Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Aegon V Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Aemma Arryn",
+            "Gender":"F",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Aemon Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Kinslayers",
+            "Culture":"Valyrian",
+            "Name":"Aemond Targaryen",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Aenys Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Exiles",
+            "Culture":"Valyrian",
+            "Name":"Aerion Targaryen",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Aerys I Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Aethelmure",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Aggar",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Aladale Wynch",
+            "Gender":"M",
+            "House":"House Wynch",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Prostitutes",
+            "Culture":"NULL",
+            "Name":"Alayaya",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Summer Islands",
+            "Occupation":"Prostitutes",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Albar Royce",
+            "Gender":"M",
+            "House":"House Royce of the Gates of the Moon",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Albett",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Alebelly",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Alester Florent",
+            "Gender":"M",
+            "House":"House Florent",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Alfyn",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Alia",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Singers",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Allar Deem",
+            "Gender":"M",
+            "House":"City Watch of King's Landing",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Allard Seaworth",
+            "Gender":"M",
+            "House":"House Seaworth",
+            "Region":"Stormlands",
+            "Occupation":"Sailors",
+            "da":"D"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"NULL",
+            "Name":"Alyn",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"Outlaws",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Alyn Stackspear",
+            "Gender":"M",
+            "House":"House Stackspear",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Alyssa Arryn",
+            "Gender":"F",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Amory Lorch",
+            "Gender":"M",
+            "House":"House Lorch",
+            "Region":"Westerlands",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Andar Royce",
+            "Gender":"M",
+            "House":"House Royce",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Andrey Charlton",
+            "Gender":"M",
+            "House":"House Charlton",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Lowborn nobles",
+            "Culture":"Ironborn",
+            "Name":"Andrik",
+            "Gender":"M",
+            "House":"House Drumm",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Andros Brax",
+            "Gender":"M",
+            "House":"House Brax",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Androw Ashford",
+            "Gender":"M",
+            "House":"House Ashford",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Antario Jast",
+            "Gender":"M",
+            "House":"House Jast",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Anya Waynwood",
+            "Gender":"F",
+            "House":"House Waynwood",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Ardrian Celtigar",
+            "Gender":"M",
+            "House":"House Celtigar",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"Norvos",
+            "Name":"Areo Hotah",
+            "Gender":"M",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"Captains of the guards",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dornishmen",
+            "Name":"Arianne Martell",
+            "Gender":"F",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Masters-at-arms",
+            "Culture":"Dornish",
+            "Name":"Aron Santagar",
+            "Gender":"M",
+            "House":"House Santagar",
+            "Region":"NULL",
+            "Occupation":"Masters-at-arms",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Andal",
+            "Name":"Artys Arryn",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Vale",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Arthur Dayne",
+            "Gender":"M",
+            "House":"House Dayne",
+            "Region":"NULL",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Arwyn Oakheart",
+            "Gender":"F",
+            "House":"House Oakheart",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Exiles",
+            "Culture":"Northmen",
+            "Name":"Arya Stark",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"Assassins",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Arys Oakheart",
+            "Gender":"M",
+            "House":"House Oakheart",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ironborn",
+            "Name":"Asha Greyjoy",
+            "Gender":"F",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"Sailors",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Westeros",
+            "Name":"Ashara Dayne",
+            "Gender":"F",
+            "House":"House Dayne",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Axell Florent",
+            "Gender":"M",
+            "House":"House Florent",
+            "Region":"Reach",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Ayrmidon",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Baela Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Baelor Blacktyde",
+            "Gender":"M",
+            "House":"House Blacktyde",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Baelor I Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Balman Byrch",
+            "Gender":"M",
+            "House":"House Byrch",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Balon Greyjoy",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Balon Swann",
+            "Gender":"M",
+            "House":"House Swann",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Bandy",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Bannen",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Barbrey Dustin",
+            "Gender":"F",
+            "House":"House Ryswell",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Barra",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"Westeros",
+            "Name":"Barristan Selmy",
+            "Gender":"M",
+            "House":"House Selmy",
+            "Region":"Stormlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Becca",
+            "Gender":"F",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Beck",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Bedwyck",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Ben Bushy",
+            "Gender":"M",
+            "House":"House Bushy",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Benfred Tallhart",
+            "Gender":"M",
+            "House":"House Tallhart",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Beren Tallhart",
+            "Gender":"M",
+            "House":"House Tallhart",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Beth Cassel",
+            "Gender":"F",
+            "House":"House Cassel",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Bharbo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Biter",
+            "Gender":"M",
+            "House":"Brave Companions",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ironborn",
+            "Name":"Bluetooth",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Bodger",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Borcas",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Boros Blount",
+            "Gender":"M",
+            "House":"House Blount",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Bowen Marsh",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"Lowborn nobles",
+            "Culture":"NULL",
+            "Name":"Bronn",
+            "Gender":"M",
+            "House":"House Stokeworth",
+            "Region":"NULL",
+            "Occupation":"Captains of the guards",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Bryan Fossoway",
+            "Gender":"M",
+            "House":"House Fossoway of Cider Hall",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Bryce Caron",
+            "Gender":"M",
+            "House":"House Caron",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Bryen Farring",
+            "Gender":"M",
+            "House":"House Farring",
+            "Region":"Crownlands",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"Rivermen",
+            "Name":"Brynden Tully",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free folk",
+            "Name":"Bump",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Burton Crakehall",
+            "Gender":"M",
+            "House":"House Crakehall",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Byam Flint",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Norvoshi",
+            "Name":"Byan Votyris",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Cadwyn",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Myrish",
+            "Name":"Craghas Drahar",
+            "Gender":"M",
+            "House":"Kingdom of the Three Daughters",
+            "Region":"NULL",
+            "Occupation":"Sailors",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Caleotte",
+            "Gender":"M",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Cayn",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Cellador",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"Members of the Faith",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Cerenna Lannister",
+            "Gender":"F",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Regents",
+            "Culture":"Westerlands",
+            "Name":"Cersei Lannister",
+            "Gender":"F",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Prostitutes",
+            "Culture":"Summer Islands",
+            "Name":"Chataya",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Summer Islands",
+            "Occupation":"Prostitutes",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Chayle",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"North",
+            "Occupation":"Members of the Faith",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"The Mountain clans",
+            "Name":"Chella",
+            "Gender":"F",
+            "House":"Black Ears",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Chett",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Chiggen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Chiswyck",
+            "Gender":"M",
+            "House":"House Clegane",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Clarent Crakehall",
+            "Gender":"M",
+            "House":"House Crakehall",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Clement Piper",
+            "Gender":"M",
+            "House":"House Piper",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Cleos Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Cletus Yronwood",
+            "Gender":"M",
+            "House":"House Yronwood",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Cley Cerwyn",
+            "Gender":"M",
+            "House":"House Cerwyn",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Clydas",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Cohollo",
+            "Gender":"M",
+            "House":"Khal",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Colemon",
+            "Gender":"M",
+            "House":"House Arryn",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Conn",
+            "Gender":"M",
+            "House":"Stone Crows",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Conwy",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Regents",
+            "Culture":"Valyrian",
+            "Name":"Corlys Velaryon",
+            "Gender":"M",
+            "House":"House Velaryon",
+            "Region":"Crownlands",
+            "Occupation":"Adventurers and explorers",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Cortnay Penrose",
+            "Gender":"M",
+            "House":"House Penrose",
+            "Region":"Stormlands",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Braavosi",
+            "Name":"Cossomo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"Ironborn",
+            "Name":"Cotter Pyke",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Kinslayers",
+            "Culture":"Free Folk",
+            "Name":"Craster",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Mountain clans",
+            "Name":"Crawn",
+            "Gender":"M",
+            "House":"Moon Brothers",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Cregan Stark",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Cressen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Cuger",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Dacey Mormont",
+            "Gender":"F",
+            "House":"House Mormont",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Valyrian",
+            "Name":"Daemon Targaryen",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Daena Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Valyrian",
+            "Name":"Daenerys Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"NULL",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Daeron II Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Masters-at-arms",
+            "Culture":"Ironborn",
+            "Name":"Dagmer",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"Masters-at-arms",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Dalbridge",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Dale Seaworth",
+            "Gender":"M",
+            "House":"House Seaworth",
+            "Region":"Crownlands",
+            "Occupation":"Sailors",
+            "da":"D"
+        },
+        {
+            "Status":"Prostitutes",
+            "Culture":"NULL",
+            "Name":"Dancy",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Prostitutes",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Danwell Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Dareon",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Reach",
+            "Occupation":"Singers",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Darla Deddings",
+            "Gender":"M",
+            "House":"House Deddings",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Darlessa Marbrand",
+            "Gender":"F",
+            "House":"House Marbrand",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Daryn Hornwood",
+            "Gender":"M",
+            "House":"House Hornwood",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Daven Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Lowborn nobles",
+            "Culture":"Westeros",
+            "Name":"Davos Seaworth",
+            "Gender":"M",
+            "House":"House Seaworth",
+            "Region":"Crownlands",
+            "Occupation":"Outlaws",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Delp",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Denys Mallister",
+            "Gender":"M",
+            "House":"House Mallister",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Desmond",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Desmond Grell",
+            "Gender":"M",
+            "House":"House Grell",
+            "Region":"Riverlands",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Devan Seaworth",
+            "Gender":"M",
+            "House":"House Seaworth",
+            "Region":"Stormlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Dick",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Dick Crabb",
+            "Gender":"M",
+            "House":"House Crabb",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Dick Follard",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Dickon Tarly",
+            "Gender":"M",
+            "House":"House Tarly",
+            "Region":"Reach",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Dirk",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Dobber",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Domeric Bolton",
+            "Gender":"M",
+            "House":"House Bolton",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Donal Noye",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Stormlands",
+            "Occupation":"Blacksmiths",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Donella Hornwood",
+            "Gender":"F",
+            "House":"House Hornwood",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Donnel Locke",
+            "Gender":"M",
+            "House":"House Locke",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Donnel Waynwood",
+            "Gender":"M",
+            "House":"House Waynwood",
+            "Region":"Vale",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Dontos Hollard",
+            "Gender":"M",
+            "House":"House Hollard",
+            "Region":"Crownlands",
+            "Occupation":"Jesters",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Dornish",
+            "Name":"Doran Martell",
+            "Gender":"M",
+            "House":"House Nymeros Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Lysene",
+            "Name":"Doreah",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Northmen",
+            "Name":"Dorren Stark",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ironborn",
+            "Name":"Drennan",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Dothraki",
+            "Name":"Drogo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Dudley",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Dunaver",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Dunsen",
+            "Gender":"M",
+            "House":"House Clegane",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Dunstan Drumm",
+            "Gender":"M",
+            "House":"House Drumm",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Duram Bar Emmon",
+            "Gender":"M",
+            "House":"House Bar Emmon",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Ebben",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Eddard Karstark",
+            "Gender":"M",
+            "House":"House Karstark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Regents",
+            "Culture":"Northmen",
+            "Name":"Eddard Stark",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Eddison Tollett",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Vale",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Edmure Tully",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Edmyn Tully",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Edric Storm",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Edwyd Fossoway",
+            "Gender":"M",
+            "House":"House Fossoway of Cider Hall",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Eggon",
+            "Gender":"M",
+            "House":"House Clegane",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Qartheen",
+            "Name":"Egon Emeros",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Elbert Arryn",
+            "Gender":"M",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ironborn",
+            "Name":"Eldiss",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"Stormlands",
+            "Name":"Eldon Estermont",
+            "Gender":"M",
+            "House":"House Estermont",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Elia Martell",
+            "Gender":"F",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Elwood",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Elwood Meadows",
+            "Gender":"M",
+            "House":"House Meadows",
+            "Region":"Reach",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Elyas Willum",
+            "Gender":"M",
+            "House":"House Willum",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Emmon Cuy",
+            "Gender":"M",
+            "House":"House Cuy",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Emmon Frey",
+            "Gender":"M",
+            "House":"House Frey of Riverrun",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Masters-at-arms",
+            "Culture":"NULL",
+            "Name":"Endrew Tarth",
+            "Gender":"M",
+            "House":"House Tarth",
+            "Region":"Stormlands",
+            "Occupation":"Masters-at-arms",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Enger",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Eon Hunter",
+            "Gender":"M",
+            "House":"House Hunter",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Ermesande Hayford",
+            "Gender":"F",
+            "House":"House Hayford",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Lhazareen",
+            "Name":"Eroeh",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Erren Florent",
+            "Gender":"M",
+            "House":"House Florent",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Esgred",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Ethan Glover",
+            "Gender":"M",
+            "House":"House Glover",
+            "Region":"North",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Ironborn",
+            "Name":"Euron Greyjoy",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"Pirates",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Falyse Stokeworth",
+            "Gender":"F",
+            "House":"House Stokeworth",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Farlen",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Flement Brax",
+            "Gender":"M",
+            "House":"House Brax",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Fogo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Forley Prester",
+            "Gender":"M",
+            "House":"House Prester",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Frenken",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Frenya",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Gared",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"Outlaws",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Garlan Tyrell",
+            "Gender":"M",
+            "House":"House Tyrell of Brightwater Keep",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Garrett Flowers",
+            "Gender":"M",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Garse Flowers",
+            "Gender":"M",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Garse Goodbrook",
+            "Gender":"M",
+            "House":"House Goodbrook",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Garth Greenfield",
+            "Gender":"M",
+            "House":"House Greenfield",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Garth Tyrell",
+            "Gender":"M",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Gawen Swann",
+            "Gender":"M",
+            "House":"House Swann",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Gawen Westerling",
+            "Gender":"M",
+            "House":"House Westerling",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Masters-at-arms",
+            "Culture":"NULL",
+            "Name":"Gawen Wylde",
+            "Gender":"M",
+            "House":"House Wylde",
+            "Region":"Stormlands",
+            "Occupation":"Masters-at-arms",
+            "da":"D"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Gendry",
+            "Gender":"M",
+            "House":"brotherhood without banners",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Gerold Hightower",
+            "Gender":"M",
+            "House":"House Hightower",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Gerren",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Gevin Harlaw",
+            "Gender":"M",
+            "House":"House Harlaw",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Gilly",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Wetnurse",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Gladden Wylde",
+            "Gender":"M",
+            "House":"House Wylde",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Gorold Goodbrother",
+            "Gender":"M",
+            "House":"House Goodbrother",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Gowen Baratheon",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Grance Morrigen",
+            "Gender":"M",
+            "House":"House Morrigen",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Astapori",
+            "Name":"Grazdan mo Ullhor",
+            "Gender":"M",
+            "House":"Good Masters",
+            "Region":"NULL",
+            "Occupation":"Slavers",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Gregor Clegane",
+            "Gender":"M",
+            "House":"House Clegane",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Westeros",
+            "Name":"Grenn",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Eunuchs",
+            "Culture":"NULL",
+            "Name":"Grey Worm",
+            "Gender":"M",
+            "House":"The Unsullied",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Gueren",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Gulian Swann",
+            "Gender":"M",
+            "House":"House Swann",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Guncer Sunglass",
+            "Gender":"M",
+            "House":"House Sunglass",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Gunthor",
+            "Gender":"M",
+            "House":"Stone Crows",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Guyard Morrigen",
+            "Gender":"M",
+            "House":"House Morrigen",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Gwayne Hightower",
+            "Gender":"M",
+            "House":"House Hightower",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Gyldayn",
+            "Gender":"M",
+            "House":"The Citadel",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Gyles Rosby",
+            "Gender":"M",
+            "House":"House Rosby",
+            "Region":"Crownlands",
+            "Occupation":"Masters of coin",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Gynir",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Haggo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Haggon",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Hake",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Halder",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Wildlings",
+            "Name":"Hali",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Lowborn nobles",
+            "Culture":"NULL",
+            "Name":"Hallyne",
+            "Gender":"M",
+            "House":"Alchemists' Guild",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Halys Hornwood",
+            "Gender":"M",
+            "House":"House Hornwood",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Harbert",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Stormlands",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Harlen Tyrell",
+            "Gender":"M",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Wildlings",
+            "Name":"Harma",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Harra",
+            "Gender":"F",
+            "House":"House Whent",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Ironborn",
+            "Name":"Harren Hoare",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Harrion Karstark",
+            "Gender":"M",
+            "House":"House Karstark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Harrold Westerling",
+            "Gender":"M",
+            "House":"House Westerling",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Harwin",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"Outlaws",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Harwin Strong",
+            "Gender":"M",
+            "House":"House Strong",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Harwood Fell",
+            "Gender":"M",
+            "House":"House Fell",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Harwyn Hoare",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Harys Swyft",
+            "Gender":"M",
+            "House":"House Swyft",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ghiscari",
+            "Name":"Hazzea",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Helaena Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Helman Tallhart",
+            "Gender":"M",
+            "House":"House Tallhart",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Helya",
+            "Gender":"F",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Hendry Bracken",
+            "Gender":"M",
+            "House":"House Bracken",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Herbert Bolling",
+            "Gender":"M",
+            "House":"House Bolling",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Heward",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Hobb",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Hobber Redwyne",
+            "Gender":"M",
+            "House":"House Redwyne",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Hod",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Holly",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Horas Redwyne",
+            "Gender":"M",
+            "House":"House Redwyne",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Hosteen Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Riverlands",
+            "Name":"Hoster Tully",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Hot Pie",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"Northmen",
+            "Name":"Hother Umber",
+            "Gender":"M",
+            "House":"House Umber",
+            "Region":"North",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Crannogmen",
+            "Name":"Howland Reed",
+            "Gender":"M",
+            "House":"House Reed",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Hubard Rambton",
+            "Gender":"M",
+            "House":"House Rambton",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Hugh",
+            "Gender":"M",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Hullen",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Humfrey Beesbury",
+            "Gender":"M",
+            "House":"House Beesbury",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Humfrey Hardyng",
+            "Gender":"M",
+            "House":"House Hardyng",
+            "Region":"Vale",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Iggo",
+            "Gender":"M",
+            "House":"Brave Companions",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Pentoshi",
+            "Name":"Illyrio Mopatis",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"NULL",
+            "Occupation":"Bravos",
+            "da":"A"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"Westeros",
+            "Name":"Ilyn Payne",
+            "Gender":"M",
+            "House":"House Payne",
+            "Region":"Westerlands",
+            "Occupation":"Captains of the guards",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Imry Florent",
+            "Gender":"M",
+            "House":"House Florent",
+            "Region":"Reach",
+            "Occupation":"Sailors",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Ironbelly",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Blacksmiths",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Irri",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Jacelyn Bywater",
+            "Gender":"M",
+            "House":"House Bywater",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Jaehaera Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Jaehaerys II Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Jafer Flowers",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Jaggot",
+            "Gender":"M",
+            "House":"Stone Crows",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Westerlands",
+            "Name":"Jaime Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Exiles",
+            "Culture":"Summer Islands",
+            "Name":"Jalabhar Xho",
+            "Gender":"M",
+            "House":"Summer Islands",
+            "Region":"Summer Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Jammos Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Janei Lannister",
+            "Gender":"F",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Lowborn nobles",
+            "Culture":"NULL",
+            "Name":"Janos Slynt",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Jared Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Jaremy Rykker",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Jarl",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Jason Mallister",
+            "Gender":"M",
+            "House":"House Mallister",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Jason Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Jasper Wylde",
+            "Gender":"M",
+            "House":"House Wylde",
+            "Region":"Stormlands",
+            "Occupation":"Masters of laws",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Jate Blackberry",
+            "Gender":"M",
+            "House":"House Blackberry",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Jeffory Mallister",
+            "Gender":"M",
+            "House":"House Mallister",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Jeor Mormont",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Regents",
+            "Culture":"The Vale",
+            "Name":"Jeyne Arryn",
+            "Gender":"F",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Jeyne Poole",
+            "Gender":"F",
+            "House":"House Poole",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Jhaqo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Jhiqui",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Jhogo",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Joanna Lannister",
+            "Gender":"F",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Jodge",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Joffrey Baratheon",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Joffrey Lonmouth",
+            "Gender":"M",
+            "House":"House Lonmouth",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Prostitutes",
+            "Culture":"NULL",
+            "Name":"Johanna Swann",
+            "Gender":"F",
+            "House":"House Swann",
+            "Region":"Stormlands",
+            "Occupation":"Prostitutes",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Crannogmen",
+            "Name":"Jojen Reed",
+            "Gender":"M",
+            "House":"House Reed",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Jommo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Jon Arryn",
+            "Gender":"M",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Jon Fossoway",
+            "Gender":"M",
+            "House":"House Fossoway of New Barrel",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Jonos Bracken",
+            "Gender":"M",
+            "House":"House Bracken",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Exiles",
+            "Culture":"Northmen",
+            "Name":"Jorah Mormont",
+            "Gender":"M",
+            "House":"House Mormont",
+            "Region":"North",
+            "Occupation":"Outlaws",
+            "da":"A"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"Northmen",
+            "Name":"Jory Cassel",
+            "Gender":"M",
+            "House":"House Cassel",
+            "Region":"North",
+            "Occupation":"Captains of the guards",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Joseth Mallister",
+            "Gender":"M",
+            "House":"House Mallister",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Joss Stilwood",
+            "Gender":"M",
+            "House":"House Clegane",
+            "Region":"Westerlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Josua Willum",
+            "Gender":"M",
+            "House":"House Willum",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Joy Hill",
+            "Gender":"F",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Jyck",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Karyl Vance",
+            "Gender":"M",
+            "House":"House Vance of Wayfarer's Rest",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Kedry",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"D"
+        },
+        {
+            "Status":"Regents",
+            "Culture":"NULL",
+            "Name":"Kevan Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ghiscari",
+            "Name":"Khrazz",
+            "Gender":"M",
+            "House":"House of Loraq",
+            "Region":"NULL",
+            "Occupation":"Pit fighters",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Koss",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Astapor",
+            "Name":"Kraznys mo Nakloz",
+            "Gender":"M",
+            "House":"Good Masters",
+            "Region":"NULL",
+            "Occupation":"Slavers",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Kurleket",
+            "Gender":"M",
+            "House":"House Bracken",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Kurz",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Kyle Royce",
+            "Gender":"M",
+            "House":"House Royce",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Kym",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Kyra",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Laena Velaryon",
+            "Gender":"F",
+            "House":"House Velaryon",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"Valyrian",
+            "Name":"Laenor Velaryon",
+            "Gender":"M",
+            "House":"House Velaryon",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Lancel Lannister",
+            "Gender":"M",
+            "House":"House Lannister of Casterly Rock",
+            "Region":"Westerlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Larence Snow",
+            "Gender":"M",
+            "House":"House Hornwood",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Lark",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Larys Strong",
+            "Gender":"M",
+            "House":"House Strong",
+            "Region":"Riverlands",
+            "Occupation":"Masters of whisperers",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Layna",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Wildling",
+            "Name":"Leathers",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Lennocks",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Leo Lefford",
+            "Gender":"M",
+            "House":"House Lefford",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"Northmen",
+            "Name":"Leobald Tallhart",
+            "Gender":"M",
+            "House":"House Tallhart",
+            "Region":"North",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Dornish",
+            "Name":"Lewyn Martell",
+            "Gender":"M",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Leyton Hightower",
+            "Gender":"M",
+            "House":"House Hightower",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Lharys",
+            "Gender":"M",
+            "House":"House Bracken",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Lister",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Lackwits",
+            "Culture":"NULL",
+            "Name":"Lollys Stokeworth",
+            "Gender":"F",
+            "House":"House Stokeworth",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Lomys",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Reach",
+            "Occupation":"Maesters",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Lorent Marbrand",
+            "Gender":"M",
+            "House":"House Marbrand",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Lorren",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Lothar Mallery",
+            "Gender":"M",
+            "House":"House Mallery",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"NULL",
+            "Name":"Lothor Brune",
+            "Gender":"M",
+            "House":"House Baelish of Harrenhal",
+            "Region":"Crownlands",
+            "Occupation":"Captains of the guards",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Lucan",
+            "Gender":"M",
+            "House":"House Whent",
+            "Region":"Riverlands",
+            "Occupation":"Blacksmiths",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Lucas Blackwood",
+            "Gender":"M",
+            "House":"House Blackwood",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Lucas Roote",
+            "Gender":"M",
+            "House":"House Roote",
+            "Region":"Riverlands",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Luton",
+            "Gender":"M",
+            "House":"House Bolton",
+            "Region":"North",
+            "Occupation":"Spies",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Westeros",
+            "Name":"Luwin",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"Maesters",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Lyanna Stark",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Lyessa Flint",
+            "Gender":"F",
+            "House":"House Flint of Widow's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Lyman Beesbury",
+            "Gender":"M",
+            "House":"House Beesbury",
+            "Region":"Reach",
+            "Occupation":"Masters of coin",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Lyman Darry",
+            "Gender":"M",
+            "House":"House Darry",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Lymond Mallister",
+            "Gender":"M",
+            "House":"House Mallister",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Lymond Vikary",
+            "Gender":"M",
+            "House":"House Vikary",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Lyn Corbray",
+            "Gender":"M",
+            "House":"House Corbray",
+            "Region":"Vale",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Lyonel Baratheon",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Lyonel Bentley",
+            "Gender":"M",
+            "House":"Queensguard",
+            "Region":"NULL",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Lyonel Strong",
+            "Gender":"M",
+            "House":"House Strong",
+            "Region":"Riverlands",
+            "Occupation":"Masters of laws",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Lyseni",
+            "Name":"Lysono Maar",
+            "Gender":"M",
+            "House":"Golden Company",
+            "Region":"NULL",
+            "Occupation":"Spymasters",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Mace Tyrell",
+            "Gender":"M",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"Masters of ships",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Maege Mormont",
+            "Gender":"F",
+            "House":"House Mormont",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Maegor I Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Maelor Targaryen",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Mag Mar Tun Doh Weg",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Mallador Locke",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Malleon",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Malliard",
+            "Gender":"M",
+            "House":"Alchemists' Guild",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Mandon Moore",
+            "Gender":"M",
+            "House":"House Moore",
+            "Region":"Vale",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Manfred Dondarrion",
+            "Gender":"M",
+            "House":"House Dondarrion",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Prostitutes",
+            "Culture":"NULL",
+            "Name":"Marei",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"Prostitutes",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Westeros",
+            "Name":"Margaery Tyrell",
+            "Gender":"F",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Maric Seaworth",
+            "Gender":"M",
+            "House":"House Seaworth",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Marillion",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Singers",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Mark Mullendore",
+            "Gender":"M",
+            "House":"House Mullendore",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Mark Ryswell",
+            "Gender":"M",
+            "House":"House Ryswell",
+            "Region":"North",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Maron Botley",
+            "Gender":"M",
+            "House":"House Botley",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Maron Greyjoy",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Marq Piper",
+            "Gender":"M",
+            "House":"House Piper",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Marq Rankenfell",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Martyn Cassel",
+            "Gender":"M",
+            "House":"House Cassel",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Martyn Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Marwyn",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Marya Seaworth",
+            "Gender":"F",
+            "House":"House Seaworth",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Masha Heddle",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"Innkeepers",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Maslyn",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Mathis Rowan",
+            "Gender":"M",
+            "House":"House Rowan",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Qartheen",
+            "Name":"Mathos Mallarawan",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Matrice",
+            "Gender":"F",
+            "House":"House Baratheon",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Matt",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Matthar",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Matthos Seaworth",
+            "Gender":"M",
+            "House":"House Seaworth",
+            "Region":"Stormlands",
+            "Occupation":"Sailors",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Medger Cerwyn",
+            "Gender":"M",
+            "House":"House Cerwyn",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Crannogmen",
+            "Name":"Meera Reed",
+            "Gender":"F",
+            "House":"House Reed",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Asshai",
+            "Name":"Melisandre",
+            "Gender":"F",
+            "House":"Faith of R'hllor",
+            "Region":"NULL",
+            "Occupation":"Shadowbinders",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Mellos",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Riverlands",
+            "Name":"Merrett Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Mikken",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"Blacksmiths",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Lhazareen",
+            "Name":"Mirri Maz Duur",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maegi",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Mohor",
+            "Gender":"M",
+            "House":"House Bracken",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Valyrian",
+            "Name":"Monford Velaryon",
+            "Gender":"M",
+            "House":"House Velaryon",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Lackwits",
+            "Culture":"NULL",
+            "Name":"Moon Boy",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"NULL",
+            "Occupation":"Jesters",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Moqorro",
+            "Gender":"M",
+            "House":"R'hllor",
+            "Region":"NULL",
+            "Occupation":"Red priests",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Mord",
+            "Gender":"M",
+            "House":"House Arryn",
+            "Region":"Vale",
+            "Occupation":"Gaolers",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Mordane",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"Members of the Faith",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Moreo Tumitis",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Sailors",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Morgil",
+            "Gender":"M",
+            "House":"House Hastwyck",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Moro",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Morrec",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Morros Slynt",
+            "Gender":"M",
+            "House":"House Slynt",
+            "Region":"Crownlands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Dornish",
+            "Name":"Mors Martell",
+            "Gender":"M",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Mors Umber",
+            "Gender":"M",
+            "House":"House Umber",
+            "Region":"North",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Morton Waynwood",
+            "Gender":"M",
+            "House":"House Waynwood",
+            "Region":"Vale",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Moryn Tyrell",
+            "Gender":"M",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Mudge",
+            "Gender":"M",
+            "House":"House Osgrey",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Munciter",
+            "Gender":"M",
+            "House":"Alchemists' Guild",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Murch",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Dwarfs",
+            "Culture":"NULL",
+            "Name":"Mushroom",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Jesters",
+            "da":"D"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Mya Stone",
+            "Gender":"F",
+            "House":"House Royce of the Gates of the Moon",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Westeros",
+            "Name":"Mycah",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Mychel Redfort",
+            "Gender":"M",
+            "House":"House Redfort",
+            "Region":"Vale",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Myrcella Baratheon",
+            "Gender":"F",
+            "House":"House Baratheon",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dornish",
+            "Name":"Myriah Martell",
+            "Gender":"F",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Myrielle Lannister",
+            "Gender":"F",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Myrtle",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Lysene",
+            "Name":"Mysaria",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Masters of whisperers",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Naerys Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Nan",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Nestor Royce",
+            "Gender":"M",
+            "House":"House Royce of the Gates of the Moon",
+            "Region":"Vale",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Nettles",
+            "Gender":"F",
+            "House":"The blacks",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Nolla",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Norren",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Rhoynar",
+            "Name":"Nymeria",
+            "Gender":"F",
+            "House":"House Martell",
+            "Region":"Rhoyne",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Dornishmen",
+            "Name":"Oberyn Martell",
+            "Gender":"M",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Ogo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Ondrew Locke",
+            "Gender":"M",
+            "House":"House Locke",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Orell",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Orwyle",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Orys Baratheon",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Osfryd Kettleblack",
+            "Gender":"M",
+            "House":"House Kettleblack",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free folk",
+            "Name":"Osha",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Osmund Kettleblack",
+            "Gender":"M",
+            "House":"House Kettleblack",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Osmynd",
+            "Gender":"M",
+            "House":"Faith of the Seven",
+            "Region":"Riverlands",
+            "Occupation":"Members of the Faith",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Osney Kettleblack",
+            "Gender":"M",
+            "House":"House Kettleblack",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Oswell Whent",
+            "Gender":"M",
+            "House":"House Whent",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Othell Yarwyck",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Otho Bracken",
+            "Gender":"M",
+            "House":"House Bracken",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Othor",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Otter Gimpknee",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"Innkeepers",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Ottyn Wythers",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Meereen",
+            "Name":"Oznak zo Pahl",
+            "Gender":"M",
+            "House":"House of Pahl",
+            "Region":"NULL",
+            "Occupation":"Slavers",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Palla",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Parmen Crane",
+            "Gender":"M",
+            "House":"House Crane",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Lackwits",
+            "Culture":"NULL",
+            "Name":"Patchface",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"NULL",
+            "Occupation":"Jesters",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Pate",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Patrek Mallister",
+            "Gender":"M",
+            "House":"House Mallister",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Paxter Redwyne",
+            "Gender":"M",
+            "House":"House Redwyne",
+            "Region":"Reach",
+            "Occupation":"Masters of ships",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Pearse Caron",
+            "Gender":"M",
+            "House":"House Caron",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Perwyn Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Westeros",
+            "Name":"Petyr Baelish",
+            "Gender":"M",
+            "House":"House Baelish",
+            "Region":"Vale",
+            "Occupation":"Bureaucrats",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Pia",
+            "Gender":"F",
+            "House":"House Whent",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Plummer",
+            "Gender":"M",
+            "House":"House Ashford",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Pono",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Porther",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Poul Pemford",
+            "Gender":"M",
+            "House":"House Tully",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Poxy Tym",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Praed",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ghiscari",
+            "Name":"Prendahl na Ghezn",
+            "Gender":"M",
+            "House":"Stormcrows",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Preston Greenfield",
+            "Gender":"M",
+            "House":"House Greenfield",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Pycelle",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Pyg",
+            "Gender":"M",
+            "House":"Brave Companions",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Pylos",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Qalen",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"Maesters",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Qarl Correy",
+            "Gender":"M",
+            "House":"House Velaryon",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Qos",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Qotho",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Asshai'i",
+            "Name":"Quaithe",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Shadowbinders",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Quaro",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Quenten Banefort",
+            "Gender":"M",
+            "House":"House Banefort",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Quenton Greyjoy",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Quentyn Blackwood",
+            "Gender":"M",
+            "House":"House Blackwood",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"Dornishmen",
+            "Name":"Quentyn Martell",
+            "Gender":"M",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Summer Islands",
+            "Name":"Quhuru Mo",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Summer Islands",
+            "Occupation":"Sailors",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Quort",
+            "Gender":"M",
+            "House":"wildling",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Qyle",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Tyroshi",
+            "Name":"Racallio Ryndoon",
+            "Gender":"M",
+            "House":"Kingdom of the Three Daughters",
+            "Region":"NULL",
+            "Occupation":"Sailors",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Rafford",
+            "Gender":"M",
+            "House":"House Clegane",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Rakharo",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"Ironborn",
+            "Name":"Ralf Kenning",
+            "Gender":"M",
+            "House":"House Kenning of Harlaw",
+            "Region":"Iron Islands",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"The North",
+            "Name":"Ramsay Snow",
+            "Gender":"M",
+            "House":"House Bolton",
+            "Region":"North",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Randyll Tarly",
+            "Gender":"M",
+            "House":"House Tarly",
+            "Region":"Reach",
+            "Occupation":"Masters of laws",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Rast",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Rattleshirt",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Raymun Darry",
+            "Gender":"M",
+            "House":"House Darry",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Raymun Fossoway",
+            "Gender":"M",
+            "House":"House Fossoway of New Barrel",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Raynald Westerling",
+            "Gender":"M",
+            "House":"House Westerling",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Redwyn",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Regenard Estren",
+            "Gender":"M",
+            "House":"House Estren",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Stormlands",
+            "Name":"Renly Baratheon",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Stormlands",
+            "Occupation":"Masters of laws",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Reysen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"Valyrian",
+            "Name":"Rhaegar Targaryen",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Rhaegel Targaryen",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Rhaella Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Rhaenys Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Rhea Royce",
+            "Gender":"F",
+            "House":"House Royce",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dothraki",
+            "Name":"Rhogoro",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Dothraki sea",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Richard Farrow",
+            "Gender":"M",
+            "House":"House Farrow",
+            "Region":"NULL",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Rickard Karstark",
+            "Gender":"M",
+            "House":"House Karstark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Rickard Stark",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Rickard Thorne",
+            "Gender":"M",
+            "House":"House Thorne",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Rickon Stark",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Robar Royce",
+            "Gender":"M",
+            "House":"House Royce",
+            "Region":"Vale",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Robb Stark",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Robert Ashford",
+            "Gender":"M",
+            "House":"House Ashford",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Robert Baratheon",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Robett Glover",
+            "Gender":"M",
+            "House":"House Glover",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Robin",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Robin Flint",
+            "Gender":"M",
+            "House":"House Flint of Widow's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"NULL",
+            "Name":"Robin Hill",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"NULL",
+            "Name":"Robin Ryger",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Riverlands",
+            "Occupation":"Captains of the guards",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Robyn Rhysling",
+            "Gender":"M",
+            "House":"House Rhysling",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Rodrik Cassel",
+            "Gender":"M",
+            "House":"House Cassel",
+            "Region":"North",
+            "Occupation":"Castellans",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Rodrik Flint",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Rodrik Greyjoy",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Northmen",
+            "Name":"Rodrik Stark",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Rolfe",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Ronnet Connington",
+            "Gender":"M",
+            "House":"House Connington",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Roose Bolton",
+            "Gender":"M",
+            "House":"House Bolton",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Rorge",
+            "Gender":"M",
+            "House":"Brave Companions",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Lowborn nobles",
+            "Culture":"NULL",
+            "Name":"Rossart",
+            "Gender":"M",
+            "House":"Alchemists' Guild",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free folk",
+            "Name":"Rowan",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Runcel Hightower",
+            "Gender":"M",
+            "House":"House Hightower",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Runciter",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Rupert Brax",
+            "Gender":"M",
+            "House":"House Brax",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Ryam Redwyne",
+            "Gender":"M",
+            "House":"House Redwyne",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Ryles",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Ryman Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Saera Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Lysene",
+            "Name":"Salladhor Saan",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"NULL",
+            "Occupation":"Pirates",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Qartheen",
+            "Name":"Sallor",
+            "Gender":"M",
+            "House":"Stormcrows",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Westeros",
+            "Name":"Samwell Tarly",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Sansa Stark",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Sawane Botley",
+            "Gender":"M",
+            "House":"House Botley",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Selwyn Tarth",
+            "Gender":"M",
+            "House":"House Tarth",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Senelle",
+            "Gender":"F",
+            "House":"House Lannister",
+            "Region":"Crownlands",
+            "Occupation":"Spies",
+            "da":"D"
+        },
+        {
+            "Status":"Prostitutes",
+            "Culture":"NULL",
+            "Name":"Shae",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Prostitutes",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Mountain clans",
+            "Name":"Shagga",
+            "Gender":"M",
+            "House":"Stone Crows",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Shagwell",
+            "Gender":"M",
+            "House":"Brave Companions",
+            "Region":"NULL",
+            "Occupation":"Outlaws",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Shella Whent",
+            "Gender":"F",
+            "House":"House Whent",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Shireen Baratheon",
+            "Gender":"F",
+            "House":"House Baratheon",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Shyra",
+            "Gender":"F",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ironborn",
+            "Name":"Sigrin",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ironborn",
+            "Name":"Skyte",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Softfoot",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Squint",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Squirrel",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Stafford Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Eunuchs",
+            "Culture":"NULL",
+            "Name":"Stalwart Shield",
+            "Gender":"M",
+            "House":"Unsullied",
+            "Region":"Free Cities",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Steffon Baratheon",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Stormlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Steffon Fossoway",
+            "Gender":"M",
+            "House":"House Fossoway of Cider Hall",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Steffon Darklyn",
+            "Gender":"M",
+            "House":"House Darklyn",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Steffon Varner",
+            "Gender":"M",
+            "House":"House Varner",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Stevron Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Wildlings",
+            "Name":"Stiv",
+            "Gender":"M",
+            "House":"Deserter from the Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Stone Thumbs",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Styr",
+            "Gender":"M",
+            "House":"Thenn",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Sylas",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Symond Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Spymasters",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Tallad",
+            "Gender":"M",
+            "House":"House Baratheon",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Tanda Stokeworth",
+            "Gender":"F",
+            "House":"House Stokeworth",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Dornish",
+            "Name":"Tanselle",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Artists",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Tanton Fossoway",
+            "Gender":"M",
+            "House":"House Fossoway of Cider Hall",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northern mountain clans",
+            "Name":"Theo Wull",
+            "Gender":"M",
+            "House":"House Wull",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironmen",
+            "Name":"Theon Greyjoy",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"First Men",
+            "Name":"Theon Stark",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Free Folk",
+            "Name":"Thistle",
+            "Gender":"F",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Thoren Smallwood",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Tion Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Tobbot",
+            "Gender":"M",
+            "House":"House Clegane",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Qohor",
+            "Name":"Tobho Mott",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Blacksmiths",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Todder",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Todric",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"Northmen",
+            "Name":"Tomard",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"Captains of the guards",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Tommen Baratheon",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Torrek",
+            "Gender":"M",
+            "House":"Stone Crows",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Torrhen Karstark",
+            "Gender":"M",
+            "House":"House Karstark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Tothmure",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Tregar",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Lyseni",
+            "Name":"Tregar Ormollen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Merchants",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Tristan Mudd",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Dornish",
+            "Name":"Trystane Martell",
+            "Gender":"M",
+            "House":"House Martell",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Turnip",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Tya Lannister",
+            "Gender":"F",
+            "House":"House Baratheon",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Tybolt Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Tyland Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Exiles",
+            "Culture":"NULL",
+            "Name":"Tyrion Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Masters of coin",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Tytos Blackwood",
+            "Gender":"M",
+            "House":"House Blackwood",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Tytos Brax",
+            "Gender":"M",
+            "House":"House Brax",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Tytos Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Tytos Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Tywin Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Ironborn",
+            "Name":"Uller",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Urreg",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"Ironborn",
+            "Name":"Urron Greyiron",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Utherydes Wayn",
+            "Gender":"M",
+            "House":"House Wayn",
+            "Region":"Riverlands",
+            "Occupation":"Stewards",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Utt",
+            "Gender":"M",
+            "House":"Brave Companions",
+            "Region":"NULL",
+            "Occupation":"Members of the Faith",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"Valyrian",
+            "Name":"Vaemond Velaryon",
+            "Gender":"M",
+            "House":"House Velaryon",
+            "Region":"Crownlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"NULL",
+            "Name":"Vardis Egen",
+            "Gender":"M",
+            "House":"House Egen",
+            "Region":"Vale",
+            "Occupation":"Captains of the guards",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Qohor",
+            "Name":"Vargo Hoat",
+            "Gender":"M",
+            "House":"Brave Companions",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Northmen",
+            "Name":"Varly",
+            "Gender":"M",
+            "House":"House Stark",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Prostitutes",
+            "Culture":"NULL",
+            "Name":"Varys",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Masters of whisperers",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Vayon Poole",
+            "Gender":"M",
+            "House":"House Poole",
+            "Region":"North",
+            "Occupation":"Stewards",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Vickon Greyjoy",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Ironborn",
+            "Name":"Victarion Greyjoy",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"Iron Islands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Valyrian",
+            "Name":"Visenya Targaryen",
+            "Gender":"F",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"Dragonriders",
+            "da":"D"
+        },
+        {
+            "Status":"Exiles",
+            "Culture":"Valyrian",
+            "Name":"Viserys Targaryen",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Viserys I Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Monarchs",
+            "Culture":"NULL",
+            "Name":"Viserys II Targaryen",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Masters-at-arms",
+            "Culture":"NULL",
+            "Name":"Vortimer Crane",
+            "Gender":"M",
+            "House":"House Crane",
+            "Region":"Reach",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Captains of the guards",
+            "Culture":"NULL",
+            "Name":"Vylarr",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Captains of the guards",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Vyman",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Walder Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"Riverlands",
+            "Name":"Walder Rivers",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Wallen",
+            "Gender":"M",
+            "House":"Deserter from the Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Waltyr Frey",
+            "Gender":"M",
+            "House":"House Frey",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Wate",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Weese",
+            "Gender":"M",
+            "House":"House Whent",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Wendamyr",
+            "Gender":"M",
+            "House":"House Greyjoy",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Wendel Manderly",
+            "Gender":"M",
+            "House":"House Manderly",
+            "Region":"North",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Qartheen",
+            "Name":"Wendello Qar Deeth",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Bastards",
+            "Culture":"Ironborn",
+            "Name":"Wex Pyke",
+            "Gender":"M",
+            "House":"House Botley",
+            "Region":"Iron Islands",
+            "Occupation":"Squires",
+            "da":"A"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"Northmen",
+            "Name":"Willam Dustin",
+            "Gender":"M",
+            "House":"House Dustin",
+            "Region":"North",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"Dornish",
+            "Name":"Willam Wells",
+            "Gender":"M",
+            "House":"House Wells",
+            "Region":"NULL",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Willas Tyrell",
+            "Gender":"M",
+            "House":"House Tyrell",
+            "Region":"Reach",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Exiles",
+            "Culture":"NULL",
+            "Name":"Willem Darry",
+            "Gender":"M",
+            "House":"House Darry",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Willem Lannister",
+            "Gender":"M",
+            "House":"House Lannister",
+            "Region":"Westerlands",
+            "Occupation":"Squires",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"William Mooton",
+            "Gender":"M",
+            "House":"House Mooton",
+            "Region":"Riverlands",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Willis Fell",
+            "Gender":"M",
+            "House":"House Fell",
+            "Region":"Stormlands",
+            "Occupation":"Knights",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Willis Wode",
+            "Gender":"M",
+            "House":"House Wode",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Willum",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Riverlands",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Woth",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"Crownlands",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Wylis Manderly",
+            "Gender":"M",
+            "House":"House Manderly",
+            "Region":"North",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Knights",
+            "Culture":"NULL",
+            "Name":"Wyman Manderly",
+            "Gender":"M",
+            "House":"House Manderly",
+            "Region":"North",
+            "Occupation":"Knights",
+            "da":"A"
+        },
+        {
+            "Status":"Castellans",
+            "Culture":"NULL",
+            "Name":"Wynton Stout",
+            "Gender":"M",
+            "House":"House Stout",
+            "Region":"North",
+            "Occupation":"Castellans",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Qartheen",
+            "Name":"Xaro Xhoan Daxos",
+            "Gender":"M",
+            "House":"The Thirteen",
+            "Region":"NULL",
+            "Occupation":"Merchants",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Wildling",
+            "Name":"Ygritte",
+            "Gender":"F",
+            "House":"Mance Rayder",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"Nobles",
+            "Culture":"NULL",
+            "Name":"Yohn Royce",
+            "Gender":"M",
+            "House":"House Royce",
+            "Region":"Vale",
+            "Occupation":"NULL",
+            "da":"A"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"Westeros",
+            "Name":"Yoren",
+            "Gender":"M",
+            "House":"Night's Watch",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Yorkel",
+            "Gender":"M",
+            "House":"House Targaryen",
+            "Region":"NULL",
+            "Occupation":"NULL",
+            "da":"D"
+        },
+        {
+            "Status":"NULL",
+            "Culture":"NULL",
+            "Name":"Yormwell",
+            "Gender":"M",
+            "House":"NULL",
+            "Region":"NULL",
+            "Occupation":"Maesters",
+            "da":"D"
+        }
+    ],
+    "type":"Clusters"
+}

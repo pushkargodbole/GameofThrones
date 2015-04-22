@@ -1,0 +1,172 @@
+<!DOCTYPE html><head>
+<meta charset="utf-8">
+<style>
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+box-sizing: border-box;
+display: inline;
+font-size: 10px;
+width: 100%;
+line-height: 1;
+color: rgba(0, 0, 0, 0.8);
+position: absolute;
+pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+content: "\25BC";
+margin: -1px 0 0 0;
+top: 100%;
+left: 0;
+text-align: center;
+}
+
+
+</style>
+<h3>Adding events to drop-down menus using D3</h3>
+<div align="right">Cluster by 
+<select id="select-list">
+  <option value="v1">Region</option> 
+  <option value="v2", selected="selected">House</option>
+  <option value="v3">Gender</option>
+  <option value="v4">Occupation</option>
+  <option value="v4">Status</option>
+</select>
+</div>
+</head>
+<body>
+<script src="d3/d3.v3.min.js"></script>
+<script src="d3/d3-tip.js"></script>
+<script>
+
+var clusterby = "House";
+
+var alertChange = function() {
+    //get the data value and index from the event
+    var selectedIndex = d3.event.target.selectedIndex;
+
+    //if you need to access more complicated attributes 
+    //or data from the option element, you can use the index
+    //to select the individual element:
+    var selectedDOMElement =
+        d3.event.target.children[selectedIndex];
+    var selection = d3.select(selectedDOMElement);
+    
+    clusterby = selection.text();
+}
+
+//add this event listener to the first menu (as a whole):
+d3.select("#select-list").on("change", alertChange);
+
+var width = 1200,
+    space = 75,
+    height = 700;
+
+var minx = 50,
+    maxx = width-50,
+    miny = 50,
+    maxy = height-50;
+
+var fill = d3.scale.category10();
+var foci = {"House":{"House Stark":{x: width/2, y: height/2-2.5*space}, "Night's Watch":{x: width/2+space, y: height/2-2*space}, "House Frey":{x: width/2+2*space, y: height/2-space}, "House Targaryen":{x: width/2+2.5*space, y: height/2}, "House Lannister":{x: width/2+2*space, y: height/2+space}, "House Greyjoy":{x: width/2+space, y: height/2+2*space}, "House Tyrell":{x: width/2, y: height/2+2.5*space}, "House Baelish":{x: width/2-space, y: height/2+2*space}, "House Martell":{x: width/2-2*space, y: height/2+space}, "House Baratheon":{x: width/2-2.5*space, y: height/2}, "House Bolton":{x: width/2-2*space, y: height/2-space}, "House Arryn":{x: width/2-space, y: height/2-2*space}, "NULL":{x: width/2, y: height/2}},
+           "Occupation":{"Clergy":{x: width/2, y: height/2-2.5*space}, "Squires":{x: width/2+space, y: height/2-2*space}, "Maesters":{x: width/2+2*space, y: height/2-space}, "Knights":{x: width/2+2.5*space, y: height/2}, "Outlaws":{x: width/2+2*space, y: height/2+space}, "Castellans":{x: width/2+space, y: height/2+2*space}, "Members of the Faith":{x: width/2, y: height/2+2.5*space}, "Prostitutes":{x: width/2-space, y: height/2+2*space}, "Dragonriders":{x: width/2-2*space, y: height/2+space}, "Spies":{x: width/2-2.5*space, y: height/2}, "Sailors":{x: width/2-2*space, y: height/2-space}, "Masters-at-arms":{x: width/2-space, y: height/2-2*space}, "NULL":{x: width/2, y: height/2}},
+           "Gender":{"M":{x: width/3, y: height/2}, "F":{x: 2*width/3, y: height/2}, "NULL":{x: width/2, y: height/2}},
+           "Region":{"Rhoyne":{x: width/2, y: height/2-2.5*space}, "Iron Islands":{x: width/2+space, y: height/2-2*space}, "Riverlands":{x: width/2+2*space, y: height/2-space}, "Summer Islands":{x: width/2+2.5*space, y: height/2}, "Reach":{x: width/2+2*space, y: height/2+space}, "Stormlands":{x: width/2+space, y: height/2+2*space}, "Dothraki sea":{x: width/2, y: height/2+2.5*space}, "Vale":{x: width/2-space, y: height/2+2*space}, "Free Cities":{x: width/2-2*space, y: height/2+space}, "Westerlands":{x: width/2-2.5*space, y: height/2}, "Crownlands":{x: width/2-2*space, y: height/2-space}, "North":{x: width/2-space, y: height/2-2*space}, "NULL":{x: width/2, y: height/2}},
+           "Status":{"Claimants to the Iron Throne":{x: width/2, y: height/2-2.5*space}, "Nobles":{x: width/2+space, y: height/2-2*space}, "Regents":{x: width/2+2*space, y: height/2-space}, "Knights":{x: width/2+2.5*space, y: height/2}, "Monarchs":{x: width/2+2*space, y: height/2+space}, "Prostitutes":{x: width/2+space, y: height/2+2*space}, "Bastards":{x: width/2, y: height/2+2.5*space}, "Castellans":{x: width/2-space, y: height/2+2*space}, "Exiles":{x: width/2-2*space, y: height/2+space}, "Captains of the guards":{x: width/2-2.5*space, y: height/2}, "Lowborn nobles":{x: width/2-2*space, y: height/2-space}, "Eunuchs":{x: width/2-space, y: height/2-2*space}, "NULL":{x: width/2, y: height/2}}
+           };
+
+//var foci = {"House":{"House Stark":{x: width/10, y: height/10}, "NULL":{x: width-width/5, y: height/5}},
+//           "occupation":{"Hand of the King":{x: 150, y: 150}, "Lanister":{x: 350, y: 250}, "Baratheon":{x: 700, y: 400}},
+//           "region":{"Stark":{x: 150, y: 150}, "Winterfell":{x: 350, y: 250}, "Lanisport":{x: 700, y: 400}}
+//           };
+
+d3.json("Data/clusters.json", function(error, graph) {
+var nodes = graph.nodes;
+
+tip = d3.tip().attr('class', 'd3-tip').html(function(d) { return "<strong>Cluster " + d[clusterby] +   
+                                                                 "</strong><br>" +
+                                                                 "<strong>Name: </strong><span style='color:Aqua'>" + d.Name +   
+                                                                 "</span><br>" +
+                                                                 "<strong>House: </strong><span style='color:Aqua'>" + d.House + "</span><br>" +
+                                                                 "<strong>Occupation: </strong><span style='color:Aqua'>" + d.Occupation + "</span>"; }).offset([-10, 0]);
+
+function color(d) {
+   if (d.da == "D") return "#ff0000"; // collapsed package
+   else if (d.da == "A") return "#00ff00"; // expanded package
+   else return "#ffffff";
+}	 
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var force = d3.layout.force()
+    .charge(-5)
+    .nodes(nodes)
+    .links([])
+    .gravity(0)
+    .size([width, height])
+    .on("tick", tick);
+
+var node = svg.selectAll("circle");
+
+function tick(e) {
+  var k = .1 * e.alpha;
+
+  // Push nodes toward their designated focus.
+  nodes.forEach(function(o, i) {
+      console.log(clusterby);
+    var ocb = o[clusterby];
+    console.log(o[clusterby]);
+    var key = "NULL";
+    if(foci[clusterby][ocb] != undefined) {
+          key = ocb;
+    }
+    console.log(key);
+    //console.log(o[clusterby]);
+    console.log(foci[clusterby][key]);
+    o.y += (foci[clusterby][key].y - o.y) * k;
+    if(o.da == "D") o.x += (foci[clusterby][key].x-10 - o.x) * k;
+    else o.x += (foci[clusterby][key].x+10 - o.x) * k;
+  });
+
+  node
+      .attr("cx", function(d) { return d.x = Math.max(minx, Math.min(d.x, maxx)); })
+      .attr("cy", function(d) { return d.y = Math.max(miny, Math.min(d.y, maxy)); });
+}
+
+setInterval(function(){
+  //nodes.push({id: ~~(Math.random() * foci.length)});
+  //console.log(nodes);
+  force.start();
+
+  node = node.data(nodes);
+
+  node.enter().append("circle")
+      .attr("class", "node")
+      .attr("cx", function(d) { return d.x = Math.max(minx, Math.min(d.x, maxx)); })
+      .attr("cy", function(d) { return d.y = Math.max(miny, Math.min(d.y, maxy)); })
+      .attr("r", 5)
+      .style("fill", color)
+      .style("stroke", function(d) { return d3.rgb(fill(d.id)).darker(2); })
+      .call(force.drag)
+      .call(tip)
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide);
+}, 500);
+});
+</script>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html style=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+
+<style>
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+box-sizing: border-box;
+display: inline;
+font-size: 10px;
+width: 100%;
+line-height: 1;
+color: rgba(0, 0, 0, 0.8);
+position: absolute;
+pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+content: "\25BC";
+margin: -1px 0 0 0;
+top: 100%;
+left: 0;
+text-align: center;
+}
+
+</style>
+
+
+<title>Les Miserables</title>
+<style id="stylish_s_empty" type="text/css"></style></head>
+
+<body>
+<script src="d3/colorbrewer.js"></script>
+<script src="d3/d3.js"></script>
+<script src="d3/d3-tip.js"></script>
+<script>
+
+//Size of region to render on
+var width = 500,
+    height = 500;
+    
+//Boundary
+var minx = 50,
+    maxx = width-50,
+    miny = 50,
+    maxy = height-50;
+
+var foci = [{x: 150, y: 150}, {x: 350, y: 250}, {x: 700, y: 400}];
+
+
+
+//D3 force directed layout
+//Try playing with the charge and link distance
+var force = d3.layout.force()
+    .charge(-5)
+    .gravity(0)
+    .size([width, height]);
+
+//Add our canvas
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+//Select the miserables data ;)
+d3.json("Data/test3.json", function(error, graph) {
+  force
+      .nodes(graph.nodes);
+      //.start();
+
+var colors = d3.scale.ordinal()
+    .range(colorbrewer.Blues[9]);
+
+tip = d3.tip().attr('class', 'd3-tip').html(function(d) { return "<strong>Name: </strong><span style='color:Aqua'>" + d.Name +   
+                                                                 "</span><br>" +
+                                                                 "<strong>House: </strong><span style='color:Aqua'>" + d.House + "</span><br>" +
+                                                                 "<strong>Occupation: </strong><span style='color:Aqua'>" + d.Occupation + "</span>"; }).offset([-10, 0]);
+
+//Add the nodes
+  var nodes = svg.selectAll(".node")
+      .data(graph.nodes)
+      .enter().append("g")
+      .attr("class", "nodes")
+	  
+function color(d) {
+   if (d.dead == 1) return "#ff0000"; // collapsed package
+   else return "#0000ff"; // expanded package
+}	
+      
+var node = svg.selectAll("circle");  
+  
+//Update stuff for animation:
+//   This takes the physics simulation for the force directed graph and
+//   sets the location of the nodes and edges to the new positions
+
+/*  
+  var k = .1 * 1;
+
+  // Push nodes toward their designated focus.
+  nodes.forEach(function(o, i) {
+    o.y = 250;
+    o.x = 250;
+  });
+*/
+
+ function tick(e) {
+     
+  nodes.forEach(function(o, i) {
+    o.y += (250 - o.y) * 0.1;
+    o.x += (250 - o.x) * 0.1;
+  });   
+          
+  node.attr("cx", function(d) { return d.x = Math.max(minx, Math.min(d.x, maxx)); })
+        .attr("cy", function(d) { return d.y = Math.max(miny, Math.min(d.y, maxy)); });
+      
+  }
+
+  force.on("tick", tick);
+  
+  setInterval(function(){
+  //nodes.push({id: ~~(Math.random() * 2)});
+  force.start();
+
+  node = node.data(nodes);
+
+  node.enter().append("circle")
+      .attr("class", "node")
+      .attr("cx", function(d) { return d.x = Math.max(minx, Math.min(d.x, maxx)); })
+      .attr("cy", function(d) { return d.y = Math.max(miny, Math.min(d.y, maxy)); })
+      .attr("r", 8)
+      .style("fill", color)
+      .style("stroke-width", 1.5)
+      .style("stroke", "#888888")
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .call(force.drag)
+      .call(tip);
+}, 500); 
+      
+});
+
+</script>
+</body>
+</html>

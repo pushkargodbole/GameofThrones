@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 Test</title>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+		
+            var keys;
+            var values;
+            
+            d3.select("body").selectAll("p")
+				.append("p")
+				.text("New paragraph!");
+            
+            d3.json("References.json",function (error, json) {
+                    keys=json["Characters"];
+                    
+            values=keys[0].ref;
+			var dataset = [ 5, 10, 15, 20, 25 ];
+			
+			d3.select("body").selectAll("p")
+				.data(values)
+				.enter()
+				.append("p")
+				.text("New paragraph!");
+			console.log(d3.selectAll("p"))
+        });
+		</script>
+	</body>
+</html>

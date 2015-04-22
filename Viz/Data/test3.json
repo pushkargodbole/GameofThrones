@@ -1,0 +1,19 @@
+{
+    "Type":"Clusters",
+    "nodes":[
+        {
+            "Name":"Eddard Stark",
+            "House":"Stark",
+            "Occupation":"Hand of the King",
+            "Region":"Winterfell",
+            "dead":1
+        },
+        {
+            "Name":"Tyrion Lanister",
+            "House":"Lanister",
+            "Occupation":"Hand of the King",
+            "Region":"Lanisport",
+            "dead":0
+        }
+    ]
+}

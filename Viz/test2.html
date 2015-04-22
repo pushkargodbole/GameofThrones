@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<head>
+
+    <meta HTTP-EQUIV="X-UA-COMPATIBLE" CONTENT="IE=EmulateIE9" >
+    <script src="d3/d3.v3.min.js"></script>
+    <script type="text/javascript" src="scripts/autocomplete.js"></script>
+
+
+    
+    <link rel="stylesheet" href="styles/style.css"/>
+
+</head>
+<style>
+
+
+
+
+body {
+  font: 10px sans-serif;
+}
+.bar rect {
+  fill: steelblue;
+  shape-rendering: crispEdges;
+}
+
+.bar text {
+  fill: #fff;
+}
+
+text {
+  fill: #000;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+blockquote
+{
+    float: right;
+    text-align:justify;
+    color: #3d3d3d;
+    background-color: #eeeeee;
+    border: 1px solid #cfcfcf;
+    padding: 10px 15px; 
+    font: normal 17px Verdana, Arial, Sans-Serif;
+}
+
+</style>
+
+<body>
+
+<div id="test" style="width:100%; height:100%;">
+
+
+<script language="JavaScript">
+
+    //Variable to hold autocomplete options
+    var keys;
+    
+    //Load US States as options from CSV - but this can also be created dynamically
+    d3.json("Data/References.json",function (error, json) {
+        keys=json["Characters"];
+        values=keys[0]["ref"];
+    
+    function start() {
+        var mc = autocomplete(document.getElementById('test'))
+                .keys(keys)
+                .dataField("Name")
+                .placeHolder("Search Character - Start typing here")
+                .width(700)
+                .height(500)
+                .onSelected(onSelect)
+                .render();
+    }
+        
+    start();    
+    var margin = {top:50, right: 100, bottom: 50, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+    var x = d3.scale.linear()
+        .domain([0, 350])
+        .range([0, width]);
+
+    var books = ["Game of Thrones", "Clash of Kings", "Storm of Swords", "Feast for Crows", "Dance with Dragons"];
+    var book_pos = [73, 143, 225, 271, 344];
+
+    
+    // Generate a histogram using twenty uniformly-spaced bins.
+    var data = d3.layout.histogram()
+        .bins(x.ticks(17))
+        (values);
+
+    var y = d3.scale.linear()
+        .domain([0, 10])
+        .range([height, 0]);
+    console.log(y);
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom").ticks(20);
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+
+    var area = d3.svg.area()
+        .x(function(d) { return x(d.x); })
+        .y0(height)
+        .y1(function(d) { return y(d.y); });
+
+    var svg = d3.select("#test").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+     //Create bars
+     
+    var bar = svg.selectAll(".bar")
+    .data(data)
+    .enter().append("g")
+    .attr("class", "bar");
+    //.attr("transform", function(d) { return "translate(" + x(d.x) + "," + y(d.y) + ")"; });
+    
+    bar.append("rect")
+       .attr("x", function(d) {
+            return x(d.x);
+       })
+       .attr("y", function(d) {
+            return y(d.y);
+       })
+       .attr("width", x(data[0].dx) - 5)
+       .attr("height", function(d) { return height - y(d.y); });
+       
+    bar.append("text")
+       .attr("x", function(d) { return x(d.x + d.dx/2 - 2.5); })
+       .attr("y", function(d) { return y(d.y - 0.4); })
+       .text(function(d) { return d.y; })
+       .attr("font-family", "sans-serif")
+       .attr("font-size", "14px")
+       .attr("fill", "white");
+
+    svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis)
+          .append("text")
+          .text("Chapters")
+          .attr("x", width)
+          .attr("dx", "5em")
+          .attr("dy", ".71em")
+          .attr("font-size", "14px")
+          .style("text-anchor", "end");
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+      .append("text")
+      .text("Events Frequency")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "-3em")
+      .attr("font-size", "14px")
+      .style("text-anchor", "end");
+     
+    for(i=0;i<books.length;i++)
+    {
+       svg.append("text")
+       .text(books[i])
+       .attr("x", x(book_pos[i]))
+       .attr("y", height+40)
+       .attr("text-anchor", "middle")
+       .attr("font-family", "sans-serif")
+       .attr("font-size", "11px");
+    }
+    
+    svg.append("text")
+    .text("A Song of Ice & Fire: Character Significance")
+    .attr("x", 400)
+    .attr("y", 10)
+    .attr("text-anchor", "middle")
+    .attr("font-family", "sans-serif")
+    .style("font-weight", "bold")
+    .attr("font-size", "20px");
+      
+      console.log(book_pos);
+        
+        //Call back for when user selects an option
+    function onSelect(d) {
+        var values = d.ref;
+        var data = d3.layout.histogram()
+        .bins(x.ticks(17))
+        (values);
+        
+        //console.log(data);
+        
+        //y.domain([0, d3.max(data, function(d) { return d.y; })]);
+        
+        // Select the section we want to apply our changes to
+    //var svg = d3.select("body");
+    // Make the changes
+    //Update all rects
+        svg.selectAll("rect")
+        .data(data)
+        .transition()
+           .attr("y", function(d) {
+                return y(d.y);
+           })
+           .attr("height", function(d) {
+                return height - y(d.y);
+           })
+           .duration(750);
+            
+        svg.selectAll("text")
+        .data(data)
+        .transition()
+       .attr("x", function(d) { return x(d.x + d.dx/2 - 2.5); })
+       .attr("y", function(d) { return y(d.y - 0.4); })
+       .text(function(d) { return d.y; })
+       .attr("font-family", "sans-serif")
+       .attr("font-size", "14px")
+       .attr("fill", "white")
+       .duration(750);
+    }
+    
+    });
+    
+    
+
+</script>
+</div>
+<div id="text" style="width:60%; height:100%;">
+    <blockquote>This histogram creates a visualization of events connected to the selected character by binning the chapters into groups of 20 each. The heights of the bars represent the number of events concerning the selected character that occur in the correspinging 20 chapter group. These events are picked from the references section of the character's wiki page from <a href="http://awoiaf.westeros.org" onFocus="if(this.blur)this.blur()">AWOIAF</a> under the premise that, the wiki page is a condenced version of the books with mention of significant events and the corresponding chapter references for each article (in this case, character).</blockquote>
+</div>
+</body>
+
+</html>
+
