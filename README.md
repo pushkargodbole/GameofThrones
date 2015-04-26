@@ -17,3 +17,13 @@ GoT
 4. DataGen/get_occupations.py : Extract from data in the file Data/status.csv and extract a list of all occupations.
 
 5. DataGen/get_occupations.py : Extract a list of all occupations from the file Data/status.csv
+
+
+
+Part 2 : Visualizations
+============================
+
+The visualizations are implemented using d3 in the Viz directory. To open a visulaization, start any http server with Viz as root directory. SimpleHTTPServer can be used to view d3 visualizations. Once the server is started, the visualzations can be viewed by opening theit html files from ay javascript enabled browser
+
+
+
