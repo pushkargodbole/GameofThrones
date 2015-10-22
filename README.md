@@ -1,3 +1,9 @@
+Authors: Pushkar Godbole, Paritosh Gote, Vinit Deodhar
+
+This is a repository of our Data and Visual Analytics course project titled "An Analysis of Ice & Fire: Character clustering and Death predictor for Game of Thrones".
+
+Additional details of the project can be found in Report.pdf.
+
 GoT
 ===
 
